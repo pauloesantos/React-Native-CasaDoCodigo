@@ -7,8 +7,8 @@ import DimensoesFixas from './componentes/DimensoesFixas';
 export default function App() {
   return (
     <View style={styles.container}>
-      <OlaMundo nome='Paulo' />
       <DimensoesFixas />
+      <OlaMundo nome='Paulo' />      
     </View>
   );
 }
