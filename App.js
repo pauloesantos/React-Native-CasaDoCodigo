@@ -1,12 +1,14 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import OlaMundo from './componentes/OlaMundo.js';
+import OlaMundo from './componentes/OlaMundo';
+import DimensoesFixas from './componentes/DimensoesFixas';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
       <OlaMundo nome='Paulo' />
+      <DimensoesFixas />
     </View>
   );
 }
